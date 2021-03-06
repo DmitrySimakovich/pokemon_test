@@ -4,7 +4,7 @@ const instance = axios.create({
     baseURL: 'https://pokeapi.co/api/v2/'
 })
 
-const pokemonApi = {
+export const pokemonApi = {
     getPokemonList: (limit: number, offSet: number) => {
         return instance.get<ResponsePokemonListType>(`pokemon?limit=${limit}&offset=${offSet}`).then(res => res.data)
     },
