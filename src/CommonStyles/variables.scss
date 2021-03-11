@@ -1,0 +1,20 @@
+/*COLORS*/
+$blackout: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+$blackout_light: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05));
+$highlight: linear-gradient(rgba(133, 170, 192, 0.5), rgba(133, 170, 192, 0.5));
+$light_background_color: white;
+$dark_background_color: rgb(12,32,39);
+
+/*FONT-COLORS*/
+$color_main: rgb(255, 254, 250);
+$color_active: rgb(69, 205, 221);
+
+
+/*MEDIA V
+(Эти значения будут умножаться на коэффициент)*/
+$main_width: 3vw;
+$main_height: 3vh;
+
+/*Коэффициенты*/
+$small_image_width: 2;
+$small_image_height: 5;

@@ -1,0 +1,20 @@
+@import "./variables";
+
+@mixin background_image_main ($position1, $position2) {
+  background-image: $blackout, url("../Assets/bacground_home_page.jpg");
+  background-position: $position1 $position2;
+  //background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@mixin display_flex ($flex_direction, $justify-content) {
+  display: flex;
+  flex-direction: $flex_direction;
+  justify-content: $justify-content;
+}
+
+@mixin globalFont ($font_size, $font_weight) {
+  font-family: 'Open Sans', sans-serif;
+  font-size: $font_size;
+  font-weight: $font_weight;
+}
